@@ -17,12 +17,12 @@ function Header() {
       />
 
       <div className="header__center">
-        <input placeholder="Where are you going to ?" type="text" />
+        <input placeholder="Where are you going ?" type="text" />
         <SearchIcon />
       </div>
 
       <div className="header__right">
-        <p>Become a host</p>
+        {/* <p>Become a host</p> */}
         <LanguageIcon />
         <ExpandMoreIcon />
         <Avatar />
