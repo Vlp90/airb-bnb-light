@@ -1,8 +1,15 @@
 .home__section {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .home__cardSection {
-    padding: 40px;
+  padding: 40px;
+}
 
+@media (max-width: 767px) {
+  .home__section {
+    flex-wrap: wrap;
+  }
 }

@@ -16,6 +16,8 @@
     min-width: 300px;
     min-height: 200px;
     width: 100%;
+    max-width: 600px;
+    max-height: 350px;
 }
 
 .card__info {
