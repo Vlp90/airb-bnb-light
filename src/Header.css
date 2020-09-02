@@ -1,5 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
 .header__icon {
-    object-fit: contain;
-    height: 100px;
-    margin-left: 20px;
+  object-fit: contain;
+  height: 120px;
+  margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+    border: none;
+    width: 20vw;
+    outline-width: 0;
+    padding-left: 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+justify-content: space-around;
+  margin-right: 15px;
+  width: 15vw;
 }
