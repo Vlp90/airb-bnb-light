@@ -19,6 +19,7 @@ function App() {
           <SearchPage />
           </Route>
 
+{/*  Always put the index in last position */}
           <Route path="/">
             <Home />
           </Route>
