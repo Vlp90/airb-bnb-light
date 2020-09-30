@@ -80,4 +80,8 @@
     .searchResult__info {
         padding: 0;
     }
+
+    .searchResult__heart {
+        display: none !important;
+    }
   }

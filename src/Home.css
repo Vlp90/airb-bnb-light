@@ -12,4 +12,8 @@
   .home__section {
     flex-wrap: wrap;
   }
+
+  .home__cardSection {
+    padding: 10px;
+  }
 }
